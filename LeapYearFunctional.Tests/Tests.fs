@@ -14,3 +14,11 @@ let ``should return true when given number is divisible by divisor`` (number, di
         |_ -> false
     
     Assert.Equal(expected, result)
+    
+[<Theory>]
+[<InlineData(1997, false)>]
+let ``should check if given year is a leap year`` (year, expected) =
+    let result = check year
+    
+    Assert.Equal(expected, result)
+    
