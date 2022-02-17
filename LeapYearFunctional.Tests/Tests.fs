@@ -5,6 +5,8 @@ open Xunit
 
 [<Theory>]
 [<InlineData(4, 4, true)>]
+[<InlineData(90, 9, true)>]
+[<InlineData(10, 9, false)>]
 let ``should return true when given number is divisible by divisor`` (number, divisor, expected) =
     let result =
         match number with
