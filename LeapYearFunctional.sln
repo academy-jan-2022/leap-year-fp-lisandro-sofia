@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LeapYearFunctional", "LeapYearFunctional\LeapYearFunctional.fsproj", "{030379AB-99BE-4F26-99D8-B20E58CD18AC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LeapYearFunctional.Tests", "LeapYearFunctional.Tests\LeapYearFunctional.Tests.fsproj", "{68F56324-DF78-4890-AD43-01C3E0A8439B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{030379AB-99BE-4F26-99D8-B20E58CD18AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030379AB-99BE-4F26-99D8-B20E58CD18AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030379AB-99BE-4F26-99D8-B20E58CD18AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030379AB-99BE-4F26-99D8-B20E58CD18AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F56324-DF78-4890-AD43-01C3E0A8439B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F56324-DF78-4890-AD43-01C3E0A8439B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F56324-DF78-4890-AD43-01C3E0A8439B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F56324-DF78-4890-AD43-01C3E0A8439B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
